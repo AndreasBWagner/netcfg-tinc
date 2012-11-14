@@ -8,8 +8,8 @@ url="https://github.com/floyd2/netcfg-tinc"
 license=('MIT')
 depends=('netcfg' 'tinc')
 source=(tinc.example tinc)
-md5sums=('ce771990c1f1ffa3ceba4ec503cded3d'
-         'b91a3358605c3b0adf73244ef34a2cc2')
+md5sums=('b7622b0c78a980d27082c14e111453fc'
+         'd5ab07a0f681b04ccb53ea28b2ed8657')
 
 build() {
   install -Dm644 $srcdir/tinc.example $pkgdir/etc/network.d/examples/tinc
