@@ -10,9 +10,8 @@ Install
 
 or
 
-> wget <download-url>
-> tar xvf <tarball> && cd netcfg-tinc
-> makepkg 
-> sudo pacman -U <pkg>
+> wget https://aur.archlinux.org/packages/ne/netcfg-tinc/netcfg-tinc.tar.gz
+> tar xvf netcfg-tinc.tar.gz && cd netcfg-tinc
+> makepkg -i
 
 
